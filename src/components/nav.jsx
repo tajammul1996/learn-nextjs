@@ -13,6 +13,8 @@ const Nav = () => (
         <a sx={{color: 'text', fontSize: 3, cursor: 'pointer'}}>notes</a>
       </Link>
 
+      <h2>{process.env.SECRET_ENV_VARIABLE}</h2>
+
     </nav>
   </header>
 )

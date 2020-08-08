@@ -10,5 +10,9 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "devDependencies": {
+    "dotenv-load": "^2.0.0",
+    "next-env": "^1.1.1"
   }
 }
